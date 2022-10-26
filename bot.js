@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
-const { guildId, clientId } = require('./config.json')
+const { token, guildId, clientId } = require('./config.json')
 require("dotenv").config();
 const {Client, GatewayIntentBits, Collection, Events} = require("discord.js");
 
